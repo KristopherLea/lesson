@@ -11,3 +11,28 @@ share information with others.
 1. Item 3
 
 [Here is an external link to Youtube.](https://www.youtube.com)
+
+
+import java.time.LocalDate;
+import java.util.*;
+
+
+
+class Main {
+  public static void main(String[] args) {
+Scanner scan = new Scanner(System.in);
+System.out.println("Input name");
+String x = scan.nextLine();
+System.out.println(x);
+
+
+
+System.out.println("email");
+String y = scan.nextLine();
+System.out.println(y);
+scan.close();
+
+LocalDate today = LocalDate.now();
+System.out.println(today);
+  }
+}
